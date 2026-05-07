@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard SITTA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h3 id="userNama"></h3>
+  <div>
+    <button onclick="lihatKeranjang()">🛒 Keranjang</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+</div>
+
+<div class="container">
+  <h2>Daftar Bahan Ajar</h2>
+
+  <!-- SEARCH -->
+  <input type="text" id="search" placeholder="Cari buku..." onkeyup="filterProduk()">
+
+  <!-- GRID PRODUK -->
+  <div class="grid" id="produkContainer"></div>
+</div>
+
+<div id="loading" class="loading">Loading...</div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span onclick="tutupModal()" class="close">&times;</span>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/dashboard.js"></script>
+
+<footer class="footer">
+  <p>© 2026 Sistem Informasi Universitas Terbuka</p>
+</footer>
+
+</body>
+</html>
