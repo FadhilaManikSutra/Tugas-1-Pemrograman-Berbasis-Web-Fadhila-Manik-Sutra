@@ -1,0 +1,173 @@
+/* ================= BASE ================= */
+body {
+  font-family: Arial;
+  background: #F5F9FF;
+  margin: 0;
+}
+
+/* ================= LAYOUT ================= */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  background: #2F80ED;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ================= CARD ================= */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+}
+
+/* ================= INPUT ================= */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+input:focus {
+  border-color: #2F80ED;
+  box-shadow: 0 0 4px rgba(47,128,237,0.3);
+}
+
+/* ================= BUTTON ================= */
+button {
+  background: #2F80ED;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1366d6;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* ================= GRID ================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+  gap: 20px;
+}
+
+/* ================= PRODUCT ================= */
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  min-height: 48px;
+}
+
+/* ================= BADGE ================= */
+.badge {
+  background: #56CCF2;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* ================= QTY ================= */
+.qty-box {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.qty-box input {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  border-left: none;
+  border-right: none;
+}
+
+.qty-box button {
+  width: 40px;
+  border-radius: 8px;
+}
+
+/* ================= MODAL ================= */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+/* ================= EMPTY ================= */
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  background: #2F80ED;
+  color: white;
+}
