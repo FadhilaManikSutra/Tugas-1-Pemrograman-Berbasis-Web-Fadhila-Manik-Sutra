@@ -1,11 +1,13 @@
 # Tugas-1-Pemrograman-Berbasis-Web-Fadhila-Manik-Sutra
-Project sederhana berbasis HTML, CSS, dan JavaScript dengan tema Sistem Informasi Tracking dan Distribusi Bahan Ajar atau SITTA UT.
+Simple project based on HTML, CSS, and JavaScript with the theme of a Teaching Material Tracking and Distribution Information System or SITTA UT.
 
-## Fitur
-- Login
-- Search
-- Keranjang Pesanan
-- Tracking Pengiriman
+## Features
 
-## Cara Menjalankan
-Buka file index.html
+* Login
+* Search
+* Shopping Cart
+* Delivery Tracking
+
+## How to Run
+
+Open the `index.html` file.
